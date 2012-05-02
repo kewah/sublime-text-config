@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+typeof ${0:var} === 'function'
+]]></content>
+    <tabTrigger>typeof function</tabTrigger>
+    <scope>source.js</scope>
+</snippet>

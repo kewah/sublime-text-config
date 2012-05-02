@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+typeof ${0:var} === 'number'
+]]></content>
+    <tabTrigger>typeof number</tabTrigger>
+    <scope>source.js</scope>
+</snippet>

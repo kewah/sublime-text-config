@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+typeof ${0:var} === 'undefined'
+]]></content>
+    <tabTrigger>typeof undefined</tabTrigger>
+    <scope>source.js</scope>
+</snippet>
