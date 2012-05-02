@@ -1,0 +1,30 @@
+[
+	// duplicate
+	{"keys": ["super+shift+d"], "command": "duplicate_line"},
+
+	// select elements
+	{"keys": ["super+d"], "command": "expand_selection", "args": {"to": "word"}},
+	{"keys": ["super+d"], "command": "expand_selection", "args": {"to": "scope"},  "context": [
+		{ "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+	]},
+
+	// refactoring
+	{ "keys": ["super+shift+r"], "command": "find_all_under" },
+
+	// Alignment
+	{ "keys": ["super+l"], "command": "alignment" , "context": [
+		{ "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+	]},
+
+	// Zen coding
+	// http://www.sublimetext.com/forum/viewtopic.php?f=2&t=2633 
+	{ "keys" : ["super+e"],"command" : "wrap_zen_as_you_type",  "context": [
+		{ "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+	]},
+
+	// plugin jshint
+	{"keys": ["ctrl+j"], "command": "jshint"},
+
+	// cursor at center
+	{ "keys": ["ctrl+l"], "command": "show_at_center" }
+]

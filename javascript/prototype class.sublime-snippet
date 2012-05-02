@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+var ${1:ProtoName} = (function() {
+
+    function ${1:ProtoName}() {
+        ${0}
+    }
+
+    ${1:ProtoName}.prototype.constructor = ${1:ProtoName};
+
+    return ${1:ProtoName};
+
+})();
+]]></content>
+    <tabTrigger>prototype</tabTrigger>
+    <scope>source.js</scope>
+</snippet>
