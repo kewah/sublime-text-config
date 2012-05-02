@@ -22,8 +22,9 @@
 		{ "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
 	]},
 
-	// plugin jshint
-	{"keys": ["ctrl+j"], "command": "jshint"},
+	// plugins
+	{ "keys": ["ctrl+j"], "command": "jshint" },
+	{ "keys": ["super+alt+f"], "command": "js_format"},
 
 	// cursor at center
 	{ "keys": ["ctrl+l"], "command": "show_at_center" }
