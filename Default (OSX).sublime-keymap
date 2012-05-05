@@ -1,6 +1,7 @@
 [
 	{ "keys": ["super+shift+m"], "command": "toggle_side_bar" },
 	{ "keys": ["super+shift+d"], "command": "duplicate_line" },
+	{ "keys": ["super+shift+l"], "command": "show_at_center" },
 
 	// select elements
 	{"keys": ["super+d"], "command": "expand_selection", "args": {"to": "word"}},
@@ -24,8 +25,5 @@
 
 	// plugins
 	{ "keys": ["ctrl+j"], "command": "jshint" },
-	{ "keys": ["super+alt+f"], "command": "js_format" },
-
-	// cursor at center
-	{ "keys": ["ctrl+l"], "command": "show_at_center" }
+	{ "keys": ["super+alt+f"], "command": "js_format" }	
 ]
