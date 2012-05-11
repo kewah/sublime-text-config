@@ -1,8 +1,7 @@
 <snippet>
     <content><![CDATA[
-for (var i = 0, len = ${1:array}.length, ${2:item}; i < len; ++i) {
-    ${2:item} = ${1:array}[i];
-
+for (var ${1:i} = 0, ${2:len} = ${3:array}.length, ${4:item}; ${1:i} < ${2:len}; ++${1:i}) {
+    ${4:item} = ${3:array}[${1:i}];
     ${0}
 }
 ]]></content>
