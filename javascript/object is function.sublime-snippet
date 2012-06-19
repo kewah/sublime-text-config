@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Object.prototype.toString.call(${0:var}) === '[object Function]'
+]]></content>
+    <tabTrigger>object is [object Function]</tabTrigger>
+    <scope>source.js</scope>
+</snippet>

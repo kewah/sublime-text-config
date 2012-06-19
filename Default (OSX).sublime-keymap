@@ -11,12 +11,6 @@
 		{ "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
 	]},
 
-	// Zen coding
-	// http://www.sublimetext.com/forum/viewtopic.php?f=2&t=2633 
-	{ "keys" : ["super+e"],"command" : "wrap_zen_as_you_type",  "context": [
-		{ "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
-	]},
-
 	// plugins
 	{ "keys": ["super+alt+f"], "command": "js_format" },
 	{ "keys": ["super+d"], "command": "xtoy"}
