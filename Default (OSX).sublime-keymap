@@ -13,5 +13,6 @@
 
 	// plugins
 	{ "keys": ["super+alt+f"], "command": "js_format" },
-	{ "keys": ["super+d"], "command": "xtoy"}
+	{ "keys": ["super+d"], "command": "xtoy"},
+	{ "keys": ["super+shift+j"], "command": "jslint" }
 ]
