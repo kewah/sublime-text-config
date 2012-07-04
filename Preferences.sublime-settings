@@ -1,26 +1,70 @@
 {
-	"binary_file_patterns": ["*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf", "*.tga", "*.dds", "*.ico", "*.eot", "*.pdf", "*.swf", "*.jar", "*.zip"],
-	"folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", ".sass-cache"],
-	"file_exclude_patterns": ["*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj", "*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class", "*.psd", "*.db"],
-
-	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
-	"font_face": "Consolas",
-	"font_size": 13.0,
-
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip"
+	],
 	"bold_folder_labels": true,
+	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
 	"default_encoding": "UTF-8",
 	"default_line_ending": "system",
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".sass-cache"
+	],
+	"font_face": "Consolas",
+	"font_size": 13.0,
 	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"move_to_limit_on_up_down": true,
 	"open_files_in_new_window": false,
 	"overlay_scroll_bars": "enabled",
 	"remember_open_files": true,
 	"scroll_past_end": true,
+	"soda_classic_tabs": false,
 	"tab_size": 4,
+	"theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true,
-
-	"soda_classic_tabs": false,
-	"theme": "Soda Dark.sublime-theme"
+	"word_wrap": true
 }
