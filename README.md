@@ -1,8 +1,3 @@
-Sublime-Text-Config
-===================
-
-My Sublime Text 2 config
-
 ## Theme ##
 - Twilight
 - [Soda Dark][SodaDark]
