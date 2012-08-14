@@ -3,16 +3,15 @@
 	{ "keys": ["super+shift+d"], "command": "duplicate_line" },
 	{ "keys": ["super+shift+l"], "command": "show_at_center" },
 
-	// refactoring
-	{ "keys": ["super+shift+r"], "command": "find_all_under" },
-
-	// Alignment
-	{ "keys": ["super+l"], "command": "alignment" , "context": [
+	{"keys": ["super+d"], "command": "expand_selection", "args": {"to": "scope"},  "context": [
 		{ "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
 	]},
 
+	// refactoring
+	{ "keys": ["super+shift+r"], "command": "find_all_under" },
+
 	// plugins
 	{ "keys": ["super+alt+f"], "command": "js_format" },
-	{ "keys": ["super+d"], "command": "xtoy"},
+	{ "keys": ["alt+d"], "command": "xtoy"},
 	{ "keys": ["super+shift+j"], "command": "jslint" }
 ]
