@@ -19,5 +19,5 @@
 
 - JavaScript:
   - [DocBlockr](https://github.com/spadgos/sublime-jsdocs)
-  - [jslint](https://github.com/fbzhong/sublime-jslint)
+  - [JSHint](https://github.com/uipoet/sublime-jshint)
   - [JsFormat](https://github.com/jdc0589/JsFormat)
