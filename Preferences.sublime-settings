@@ -66,5 +66,9 @@
 	"theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true
+	"word_wrap": true,
+	"highlight_line": true,
+	"caret_style": "smooth",
+    "wide_caret": true
+    // "caret_blink_interval": 1
 }
