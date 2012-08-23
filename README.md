@@ -9,6 +9,7 @@
   - [AdvancedNewFile](https://github.com/xobb1t/Sublime-AdvancedNewFile)
   - [xtoy](https://github.com/superguigui/xtoy)
   - [WordHighlight](https://github.com/SublimeText/WordHighlight/)
+  - [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
 
 - Markdown:
   - [MarkdownBuild](https://github.com/erinata/SublimeMarkdownBuild)
