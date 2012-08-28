@@ -16,6 +16,7 @@
 		"*.zip"
 	],
 	"bold_folder_labels": true,
+	"caret_style": "smooth",
 	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
 	"default_encoding": "UTF-8",
 	"default_line_ending": "system",
@@ -51,6 +52,7 @@
 	],
 	"font_face": "Consolas",
 	"font_size": 13.0,
+	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
@@ -66,9 +68,6 @@
 	"theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true,
-	"highlight_line": true,
-	"caret_style": "smooth",
-    "wide_caret": true
-    // "caret_blink_interval": 1
+	"wide_caret": true,
+	"word_wrap": true
 }

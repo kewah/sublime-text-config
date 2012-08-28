@@ -22,3 +22,4 @@
   - [DocBlockr](https://github.com/spadgos/sublime-jsdocs)
   - [JSHint](https://github.com/uipoet/sublime-jshint)
   - [JsFormat](https://github.com/jdc0589/JsFormat)
+  - [Require Node.js Modules Helper](https://github.com/jfromaniello/sublime-node-require)
