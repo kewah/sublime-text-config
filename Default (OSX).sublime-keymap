@@ -22,5 +22,8 @@
 	{ "keys": ["super+alt+f"], "command": "js_format" },
 	{ "keys": ["alt+d"], "command": "xtoy"},
 	{ "keys": ["super+shift+j"], "command": "jshint" },
-	{ "keys": ["super+shift+l"], "command": "require_node" }
+	{ "keys": ["super+shift+l"], "command": "require_node" },
+
+	{ "keys": ["ctrl+shift+left"], "command": "move_to_group", "args": { "group": 0 } },
+	{ "keys": ["ctrl+shift+right"], "command": "move_to_group", "args": { "group": 1 } }
 ]
