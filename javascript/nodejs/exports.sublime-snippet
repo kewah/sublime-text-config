@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+exports.${1:method} = function(${2:params}) {
+  ${0}
+};
+]]></content>
+  <tabTrigger>_exports</tabTrigger>
+  <scope>source.js</scope>
+</snippet>
