@@ -12,18 +12,16 @@
 		{ "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
 	]},
 
-	{ "keys": ["ctrl+tab"], "command": "next_view_in_stack" },
-	{ "keys": ["ctrl+shift+tab"], "command": "prev_view_in_stack" },
+	{ "keys": ["ctrl+shift+left"], "command": "move_to_group", "args": { "group": 0 } },
+	{ "keys": ["ctrl+shift+right"], "command": "move_to_group", "args": { "group": 1 } },
 
-	// refactoring
+	{ "keys": ["super+v"], "command": "paste_and_indent" },
 	{ "keys": ["super+shift+r"], "command": "find_all_under" },
+	{ "keys": ["super+k", "super+k"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
 
 	// plugins
 	{ "keys": ["super+alt+f"], "command": "js_format" },
 	{ "keys": ["alt+d"], "command": "xtoy"},
 	{ "keys": ["super+shift+j"], "command": "jshint" },
-	{ "keys": ["super+shift+l"], "command": "require_node" },
-
-	{ "keys": ["ctrl+shift+left"], "command": "move_to_group", "args": { "group": 0 } },
-	{ "keys": ["ctrl+shift+right"], "command": "move_to_group", "args": { "group": 1 } }
+	{ "keys": ["super+shift+l"], "command": "require_node" }
 ]
