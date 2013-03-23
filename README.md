@@ -7,6 +7,7 @@
 ## Puglins
 ### General
 * [AdvancedNewFile](https://github.com/xobb1t/Sublime-AdvancedNewFile)
+* [Open in terminal](https://github.com/afterdesign/MacTerminal)
 * [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
 * [Editor config](https://github.com/sindresorhus/editorconfig-sublime)
 
