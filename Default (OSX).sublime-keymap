@@ -53,9 +53,9 @@
   },
 
   // selection
-  { "keys": ["super+,", "q"], "command": "expand_selection_to_quotes"},
-  { "keys": ["super+,", "b"], "command": "expand_selection", "args": {"to": "brackets"} },
-  { "keys": ["super+,", "i"], "command": "expand_selection", "args": {"to": "indentation"} },
+  { "keys": ["alt+:", "q"], "command": "expand_selection_to_quotes"},
+  { "keys": ["alt+:", "b"], "command": "expand_selection", "args": {"to": "brackets"} },
+  { "keys": ["alt+:", "i"], "command": "expand_selection", "args": {"to": "indentation"} },
 
   // Jump to next/prev empty line
   {"keys": ["alt+up"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false}},
