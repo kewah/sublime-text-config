@@ -1,0 +1,32 @@
+<snippet>
+    <content><![CDATA[
+'use strict';
+
+/**
+ * Module dependencies.
+ */
+var extend = require('extend');
+
+/**
+ * Expose `${1:ModuleName}`.
+ */
+module.exports = ${1:ModuleName};
+
+/**
+ * `${1:ModuleName}` constructor.
+ */
+
+function ${1:ModuleName}() {
+  ${0}
+}
+
+/**
+ * Define `${1:ModuleName}` members.
+ */
+extend(${1:ModuleName}.prototype, {
+
+});
+]]></content>
+    <tabTrigger>_module</tabTrigger>
+    <scope>source.js</scope>
+</snippet>

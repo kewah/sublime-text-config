@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+${1:el}.addEventListener('${3:type}', ${4:function() {\}}${5:, false});
+]]></content>
+    <tabTrigger>_addEventListener</tabTrigger>
+    <scope>source.js</scope>
+</snippet>

@@ -7,13 +7,17 @@
 ## Puglins
 ### General
 * [AdvancedNewFile](https://github.com/xobb1t/Sublime-AdvancedNewFile)
-* [xtoy](https://github.com/superguigui/xtoy)
-* [WordHighlight](https://github.com/SublimeText/WordHighlight/)
 * [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
 * [Editor config](https://github.com/sindresorhus/editorconfig-sublime)
 
-### Markdown
-* [MarkdownBuild](https://github.com/erinata/SublimeMarkdownBuild)
+### Navigation
+* [EasyMotion](https://github.com/tednaleid/sublime-EasyMotion)
+
+### Common
+* [xtoy](https://github.com/superguigui/xtoy)
+* [WordHighlight](https://github.com/SublimeText/WordHighlight/)
+* [duplicate-lines](https://github.com/wjthomas9/duplicate-lines)
+* [Open-Include](https://github.com/SublimeText/Open-Include)
 
 ### HTML
 * [Emmet](https://github.com/sergeche/emmet-sublime)

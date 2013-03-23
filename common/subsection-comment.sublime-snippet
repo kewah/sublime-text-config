@@ -4,5 +4,5 @@
 // ==========================================================================
 ]]></content>
     <tabTrigger>subsection-comment</tabTrigger>
-    <scope>source.scss,source.sass</scope>
+    <scope>source.scss,source.sass,source.js</scope>
 </snippet>

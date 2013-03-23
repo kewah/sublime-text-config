@@ -1,35 +1,75 @@
 [
-	{ "keys": ["super+shift+d"], "command": "duplicate_line" },
+  { "keys": ["super+shift+m"], "command": "toggle_side_bar" },
 
-	{ "keys": ["f2"], "command": "next_bookmark" },
-	{ "keys": ["shift+f2"], "command": "prev_bookmark" },
-	{ "keys": ["super+f2"], "command": "toggle_bookmark" },
-	{ "keys": ["super+shift+f2"], "command": "clear_bookmarks" },
-	{ "keys": ["alt+f2"], "command": "select_all_bookmarks" },
+  { "keys": ["f2"], "command": "next_bookmark" },
+  { "keys": ["shift+f2"], "command": "prev_bookmark" },
+  { "keys": ["super+f2"], "command": "toggle_bookmark" },
+  { "keys": ["super+shift+f2"], "command": "clear_bookmarks" },
+  { "keys": ["alt+f2"], "command": "select_all_bookmarks" },
 
-	{"keys": ["super+d"], "command": "expand_selection", "args": {"to": "scope"},  "context": [
-		{ "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
-	]},
+  { "keys": ["super+à"], "command": "focus_side_bar" },
 
-	{ "keys": ["ctrl+shift+left"], "command": "move_to_group", "args": { "group": 0 } },
-	{ "keys": ["ctrl+shift+right"], "command": "move_to_group", "args": { "group": 1 } },
+  { "keys": ["super+&"], "command": "focus_group", "args": { "group": 0 } },
+  { "keys": ["super+é"], "command": "focus_group", "args": { "group": 1 } },
+  { "keys": ["super+\""], "command": "focus_group", "args": { "group": 2 } },
+  { "keys": ["super+'"], "command": "focus_group", "args": { "group": 3 } },
+  { "keys": ["super+shift+&"], "command": "move_to_group", "args": { "group": 0 } },
+  { "keys": ["super+shift+é"], "command": "move_to_group", "args": { "group": 1 } },
+  { "keys": ["super+shift+\""], "command": "move_to_group", "args": { "group": 2 } },
+  { "keys": ["super+shift+'"], "command": "move_to_group", "args": { "group": 3 } },
 
-	// side bar
-	{ "keys": ["super+shift+m"], "command": "toggle_side_bar" },
-	{ "keys": ["alt+;"], "command": "reveal_in_side_bar" },
-	{ "keys": ["ctrl+s,ctrl+d"], "command": "side_bar_duplicate" },
-	{ "keys": ["ctrl+s,ctrl+m"], "command": "side_bar_move" },
-	{ "keys": ["ctrl+s,ctrl+r"], "command": "side_bar_rename" },
-	{ "keys": ["ctrl+s,ctrl+s"], "command": "side_bar_copy_name" },
-	{ "keys": ["ctrl+s,ctrl+s,ctrl+s"], "command": "side_bar_copy_path" },
+  // 1 column
+  {
+    "keys": ["ctrl+shift+&"], "command": "set_layout",
+    "args": {
+      "cols": [0.0, 1.0],
+      "rows": [0.0, 1.0],
+      "cells": [[0, 0, 1, 1]]
+    }
+  },
+  // 2 column
+  {
+    "keys": ["ctrl+shift+é"], "command": "set_layout",
+    "args": {
+      "cols": [0.0, 0.5, 1.0],
+      "rows": [0.0, 1.0],
+      "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+    }
+  },
+  // 2 rows
+  {
+    "keys": ["ctrl+shift+\""], "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 1.0],
+      "rows": [0.0, 0.5, 1.0],
+      "cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
+    }
+  },
+  // 2 rows 2 column
+  {
+    "keys": ["ctrl+shift+'"], "command": "set_layout",
+    "args": {
+      "cols": [0.0, 0.5, 1.0],
+      "rows": [0.0, 0.5, 1.0],
+      "cells": [
+        [0, 0, 1, 1], [1, 0, 2, 1],
+        [0, 1, 1, 2], [1, 1, 2, 2]
+      ]
+    }
+  },
 
-	{ "keys": ["super+v"], "command": "paste_and_indent" },
-	{ "keys": ["super+shift+r"], "command": "find_all_under" },
-	{ "keys": ["super+k", "super+k"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
+  { "keys": ["super+v"], "command": "paste_and_indent" },
+  { "keys": ["super+shift+r"], "command": "find_all_under" },
 
-	// plugins
-	{ "keys": ["super+alt+f"], "command": "js_format" },
-	{ "keys": ["alt+d"], "command": "xtoy"},
-	{ "keys": ["super+shift+j"], "command": "jshint" },
-	{ "keys": ["super+shift+l"], "command": "require_node" }
+  // Jump to next/prev empty line
+  {"keys": ["alt+up"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false}},
+  {"keys": ["alt+down"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true}},
+
+  // plugins
+  { "keys": ["alt+d"], "command": "open_include"},
+  { "keys": ["super+alt+f"], "command": "js_format" },
+  { "keys": ["super+shift+j"], "command": "jshint" },
+  { "keys": ["super+shift+l"], "command": "require_node" },
+  { "keys": ["super+shift+d"], "command": "duplicate_lines" }
 ]
