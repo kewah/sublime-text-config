@@ -1,4 +1,6 @@
 [
+  { "keys": ["super+v"], "command": "paste_and_indent" },
+  { "keys": ["super+shift+r"], "command": "find_all_under" },
   { "keys": ["super+shift+m"], "command": "toggle_side_bar" },
 
   { "keys": ["f2"], "command": "next_bookmark" },
@@ -7,17 +9,20 @@
   { "keys": ["super+shift+f2"], "command": "clear_bookmarks" },
   { "keys": ["alt+f2"], "command": "select_all_bookmarks" },
 
+  // Focus (azerty keyboard)
   { "keys": ["super+à"], "command": "focus_side_bar" },
-
   { "keys": ["super+&"], "command": "focus_group", "args": { "group": 0 } },
   { "keys": ["super+é"], "command": "focus_group", "args": { "group": 1 } },
   { "keys": ["super+\""], "command": "focus_group", "args": { "group": 2 } },
   { "keys": ["super+'"], "command": "focus_group", "args": { "group": 3 } },
+
+  // Move to group (azerty keyboard)
   { "keys": ["super+shift+&"], "command": "move_to_group", "args": { "group": 0 } },
   { "keys": ["super+shift+é"], "command": "move_to_group", "args": { "group": 1 } },
   { "keys": ["super+shift+\""], "command": "move_to_group", "args": { "group": 2 } },
   { "keys": ["super+shift+'"], "command": "move_to_group", "args": { "group": 3 } },
 
+  // Layout (azerty keyboard)
   // 1 column
   {
     "keys": ["ctrl+shift+&"], "command": "set_layout",
@@ -46,21 +51,11 @@
       "cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
     }
   },
-  // 2 rows 2 column
-  {
-    "keys": ["ctrl+shift+'"], "command": "set_layout",
-    "args": {
-      "cols": [0.0, 0.5, 1.0],
-      "rows": [0.0, 0.5, 1.0],
-      "cells": [
-        [0, 0, 1, 1], [1, 0, 2, 1],
-        [0, 1, 1, 2], [1, 1, 2, 2]
-      ]
-    }
-  },
 
-  { "keys": ["super+v"], "command": "paste_and_indent" },
-  { "keys": ["super+shift+r"], "command": "find_all_under" },
+  // selection
+  { "keys": ["super+,", "q"], "command": "expand_selection_to_quotes"},
+  { "keys": ["super+,", "b"], "command": "expand_selection", "args": {"to": "brackets"} },
+  { "keys": ["super+,", "i"], "command": "expand_selection", "args": {"to": "indentation"} },
 
   // Jump to next/prev empty line
   {"keys": ["alt+up"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false}},

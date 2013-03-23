@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+,
+
+${1:name}: function(${2}) {
+  ${0}
+}${3:,}
+]]></content>
+    <tabTrigger>_fn object</tabTrigger>
+    <scope>source.js</scope>
+</snippet>
