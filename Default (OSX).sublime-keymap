@@ -9,18 +9,39 @@
   { "keys": ["super+shift+f2"], "command": "clear_bookmarks" },
   { "keys": ["alt+f2"], "command": "select_all_bookmarks" },
 
+  // selection (azerty keyboard)
+  { "keys": ["alt+:", "q"], "command": "expand_selection_to_quotes"},
+  { "keys": ["alt+:", "s"], "command": "expand_selection_to_whitespace"},
+  { "keys": ["alt+:", "b"], "command": "expand_selection", "args": {"to": "brackets"} },
+  { "keys": ["alt+:", "i"], "command": "expand_selection", "args": {"to": "indentation"} },
+
+  // Jump to next/prev empty line
+  {"keys": ["alt+up"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false}},
+  {"keys": ["alt+down"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true}},
+
   // Focus (azerty keyboard)
-  { "keys": ["super+à"], "command": "focus_side_bar" },
-  { "keys": ["super+&"], "command": "focus_group", "args": { "group": 0 } },
-  { "keys": ["super+é"], "command": "focus_group", "args": { "group": 1 } },
-  { "keys": ["super+\""], "command": "focus_group", "args": { "group": 2 } },
-  { "keys": ["super+'"], "command": "focus_group", "args": { "group": 3 } },
+  { "keys": ["super+shift+&"], "command": "focus_group", "args": { "group": 0 } },
+  { "keys": ["super+shift+é"], "command": "focus_group", "args": { "group": 1 } },
+  { "keys": ["super+shift+\""], "command": "focus_group", "args": { "group": 2 } },
+  { "keys": ["super+shift+'"], "command": "focus_group", "args": { "group": 3 } },
 
   // Move to group (azerty keyboard)
-  { "keys": ["super+shift+&"], "command": "move_to_group", "args": { "group": 0 } },
-  { "keys": ["super+shift+é"], "command": "move_to_group", "args": { "group": 1 } },
-  { "keys": ["super+shift+\""], "command": "move_to_group", "args": { "group": 2 } },
-  { "keys": ["super+shift+'"], "command": "move_to_group", "args": { "group": 3 } },
+  { "keys": ["ctrl+&"], "command": "move_to_group", "args": { "group": 0 } },
+  { "keys": ["ctrl+é"], "command": "move_to_group", "args": { "group": 1 } },
+  { "keys": ["ctrl+\""], "command": "move_to_group", "args": { "group": 2 } },
+  { "keys": ["ctrl+'"], "command": "move_to_group", "args": { "group": 3 } },
+
+  // (azerty keyboard)
+  { "keys": ["super+à"], "command": "focus_side_bar" },
+  { "keys": ["super+&"], "command": "select_by_index", "args": { "index": 0 } },
+  { "keys": ["super+é"], "command": "select_by_index", "args": { "index": 1 } },
+  { "keys": ["super+\""], "command": "select_by_index", "args": { "index": 2 } },
+  { "keys": ["super+'"], "command": "select_by_index", "args": { "index": 3 } },
+  { "keys": ["super+("], "command": "select_by_index", "args": { "index": 4 } },
+  { "keys": ["super+§"], "command": "select_by_index", "args": { "index": 5 } },
+  { "keys": ["super+è"], "command": "select_by_index", "args": { "index": 6 } },
+  { "keys": ["super+!"], "command": "select_by_index", "args": { "index": 7 } },
+  { "keys": ["super+ç"], "command": "select_by_index", "args": { "index": 8 } },
 
   // Layout (azerty keyboard)
   // 1 column
@@ -44,22 +65,20 @@
   // 2 rows
   {
     "keys": ["ctrl+shift+\""], "command": "set_layout",
-    "args":
-    {
+    "args": {
       "cols": [0.0, 1.0],
       "rows": [0.0, 0.5, 1.0],
       "cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
     }
   },
-
-  // selection
-  { "keys": ["alt+:", "q"], "command": "expand_selection_to_quotes"},
-  { "keys": ["alt+:", "b"], "command": "expand_selection", "args": {"to": "brackets"} },
-  { "keys": ["alt+:", "i"], "command": "expand_selection", "args": {"to": "indentation"} },
-
-  // Jump to next/prev empty line
-  {"keys": ["alt+up"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false}},
-  {"keys": ["alt+down"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true}},
+  {
+    "keys": ["ctrl+shift+'"], "command": "set_layout",
+    "args": {
+      "cols": [0.0, 0.5, 1.0],
+      "rows": [0.0, 0.6, 1.0],
+      "cells": [[0, 0, 2, 1], [0, 1, 1, 2], [1, 1, 2, 2]]
+    }
+  },
 
   // plugins
   { "keys": ["alt+d"], "command": "open_include"},
