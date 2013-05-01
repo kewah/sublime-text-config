@@ -16,7 +16,7 @@
 		"*.zip"
 	],
 	"bold_folder_labels": true,
-	"caret_style": "smooth",
+	"caret_style": "solid",
 	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
 	"default_encoding": "UTF-8",
 	"default_line_ending": "system",
@@ -52,6 +52,10 @@
 		".bin"
 	],
 	"font_face": "Consolas",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
 	"font_size": 13.0,
 	"git_gutter_live_mode": false,
 	"highlight_line": true,
@@ -70,6 +74,7 @@
 	"theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
+	"use_simple_full_screen": true,
 	"wide_caret": true,
 	"word_wrap": true
 }

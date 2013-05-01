@@ -10,6 +10,7 @@
 * [Open in terminal](https://github.com/afterdesign/MacTerminal)
 * [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
 * [Editor config](https://github.com/sindresorhus/editorconfig-sublime)
+* [Move Tab](https://github.com/SublimeText/MoveTab)
 
 ### Navigation
 * [EasyMotion](https://github.com/tednaleid/sublime-EasyMotion)
