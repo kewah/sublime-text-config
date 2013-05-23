@@ -20,6 +20,7 @@
 	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
 	"default_encoding": "UTF-8",
 	"default_line_ending": "system",
+	"detect_slow_plugins": false,
 	"file_exclude_patterns":
 	[
 		"*.pyc",

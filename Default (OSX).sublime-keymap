@@ -88,5 +88,6 @@
   { "keys": ["super+shift+j"], "command": "jshint" },
   { "keys": ["super+shift+l"], "command": "require_node" },
   { "keys": ["super+shift+d"], "command": "duplicate_lines" },
-  { "keys": ["super+y"], "command": "goto_recent" }
+  { "keys": ["super+y"], "command": "goto_recent" },
+  { "keys": ["ctrl+alt+x"], "command": "prefixr" }
 ]
