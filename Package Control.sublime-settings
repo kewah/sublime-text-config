@@ -1,0 +1,35 @@
+{
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"All Autocomplete",
+		"ColorPicker",
+		"CSSLint",
+		"DocBlockr",
+		"Duplicate Lines",
+		"EasyMotion",
+		"EditorConfig",
+		"Emmet",
+		"Expand Selection to Quotes",
+		"Expand Selection to Whitespace",
+		"GitGutter",
+		"Gitignore",
+		"GotoRecent",
+		"Handlebars",
+		"JavaScript Refactor",
+		"JsFormat",
+		"JSHint",
+		"MacTerminal",
+		"MoveTab",
+		"Open-Include",
+		"Package Control",
+		"Prefixr",
+		"Require Node.js Modules Helper",
+		"SCSS",
+		"SCSS Snippets",
+		"SideBarEnhancements",
+		"Tag",
+		"Theme - Soda",
+		"WordHighlight"
+	]
+}
